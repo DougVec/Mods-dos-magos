@@ -1,0 +1,12 @@
+{
+  "name": "magos",
+  "version": "0.4.0",
+  "description": "Subagentes como magos, ferramentas como feitiços, spinner de runas",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "DougVec",
+    "url": "https://github.com/DougVec"
+  },
+  "repository": "https://github.com/DougVec/Mods-dos-magos",
+  "license": "MIT"
+}

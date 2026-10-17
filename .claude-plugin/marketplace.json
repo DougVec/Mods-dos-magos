@@ -1,0 +1,20 @@
+{
+  "name": "mods-dos-magos",
+  "description": "Mods com tema de magos para o Claude Code: criaturas mágicas, Torre dos Magos e feitiços",
+  "owner": {
+    "name": "DougVec",
+    "url": "https://github.com/DougVec"
+  },
+  "plugins": [
+    {
+      "name": "magos",
+      "source": "./plugins/magos",
+      "description": "Torre dos Magos: subagentes como criaturas mágicas animadas, dashboard com botões de testes e deploy, ferramentas como feitiços, spinner de runas e faixa do projeto (git) acima do prompt"
+    },
+    {
+      "name": "clawd-mago",
+      "source": "./plugins/clawd-mago",
+      "description": "Clawd como mago em ASCII acima do prompt, com o progresso do savvy-flow ao lado (precisa do savvy-progress)"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "clawd-mago",
+  "version": "0.2.0",
+  "description": "Clawd as an ASCII wizard above the prompt, with the savvy-flow progress beside him.",
+  "author": {
+    "name": "DougVec",
+    "url": "https://github.com/DougVec"
+  },
+  "dependencies": [
+    "savvy-progress@claude-kit"
+  ]
+}

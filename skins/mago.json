@@ -1,0 +1,12 @@
+{
+  "action": "save",
+  "name": "mago",
+  "base": "tokyo-night",
+  "palette": {
+    "read": "#00e5ff", "write": "#f5ff3b", "run": "#ff2bd6", "search": "#39ff88", "web": "#ff8a2b",
+    "mcp": "#a77bff", "other": "#b8b0e0", "user": "#ff2bd6", "fg": "#e6e1ff", "muted": "#9a8fc7",
+    "surface": "#221433", "zebra": "#1a1028", "ok": "#39ff88", "err": "#ff3860", "warn": "#f5ff3b"
+  },
+  "spinner": ["Conjurando", "Encantando", "Invocando", "Transmutando", "Lendo o grimório", "Agitando a varinha", "Destilando poções"],
+  "done": ["Conjurado", "Encantado", "Invocado", "Transmutado"]
+}
