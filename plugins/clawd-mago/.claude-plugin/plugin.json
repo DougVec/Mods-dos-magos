@@ -1,6 +1,6 @@
 {
   "name": "clawd-mago",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Clawd as an ASCII wizard above the prompt, with the savvy-flow progress beside him.",
   "author": {
     "name": "DougVec",

@@ -124,13 +124,6 @@ const wizardize = (n: RenderElement): RenderElement => {
 }
 
 export const register: Register = on => {
-  // Keeps savvy-progress's agents pane docked for the whole session: opened at start, never closed.
-  on('session.start', async ($, e, next) => {
-    const started = await next(e)
-    void $.command.run({ command: 'agents-info', args: 'open' }).catch(() => {})
-    return started
-  })
-  on('ui.close', async ($, e, next) => (e.id === 'savvy-agents' && e.origin.kind !== 'unload' ? undefined : next(e)))
 
   on('ui.render', { component: 'Pane', requestId: 'savvy-agents' }, async ($, e, next) => wizardize(await next(e)))
 
