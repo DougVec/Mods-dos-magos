@@ -1,6 +1,6 @@
 {
   "name": "magos",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Subagentes como magos, ferramentas como feitiços, spinner de runas",
   "types": "./types/index.d.ts",
   "author": {

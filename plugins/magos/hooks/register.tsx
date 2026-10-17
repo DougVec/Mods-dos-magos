@@ -261,6 +261,8 @@ export const register: Register = on => {
     const u = await $.session.usage()
     await update($, mana, () => readMana(u.rateLimits, u.context.percent, u.cost?.usd))
     $.command.register({ name: 'torre', description: 'Abre ou fecha a Torre dos Magos (painel dos subagentes)' })
+    // A torre abre em toda sessão; /torre fecha
+    if (!(await $.ui.panes()).some(p => p.id === PANE)) void $.ui.open({ id: PANE, title: 'Torre dos Magos' })
     return started
   })
 

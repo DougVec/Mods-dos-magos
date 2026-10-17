@@ -12,7 +12,7 @@ Mods para deixar o Claude Code com tema de magos: subagentes viram criaturas má
 - **Mana**: uso do limite de 5 horas, da semana, do contexto e o custo.
 - **Ao vivo**: cada subagente como uma criatura animada, com a tarefa e o tempo.
 
-Abre sozinha quando um subagente começa. Para abrir ou fechar, use `/torre`.
+Abre sozinha no começo de toda sessão. Para fechar ou abrir de novo, use `/torre`.
 
 ### 🐉 Subagentes como criaturas
 Cada subagente ganha um mago diferente. Todos são animados: piscam, balançam, mexem o cajado e soltam faíscas, e ficam mais rápidos quando estão conjurando.
